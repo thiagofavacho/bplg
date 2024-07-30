@@ -26,9 +26,9 @@ body {
     background: #ffffff;
     border-radius: 10px;
     position: relative; left: 10%;
-    transition: transform 0.5s ease;
+    transition: transform 0.5s;
     transform-style: preserve-3d;
-    
+
 }
 
 .card .front, .card .back {
@@ -54,6 +54,8 @@ body {
 .card.flip {
     transform: rotateY(180deg);
 }
+
+/* Responsividade do jogo */
 
 @media (max-width: 768px) {
     .card {
